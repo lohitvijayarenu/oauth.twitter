@@ -1,0 +1,13 @@
+Example OAuth for Twitter APIs
+--------------------------------------------------
+
+Simple example showing how to Authenticate and App on behalf of Twitter user.
+ExampleRegistration.java : Shows how to generate acces token on behalf of user. For this example, once verified by user, access token are stored in a flat file which can be used later in App.
+
+ExampleApp.java : Uses the access token stored to be able to search twitter stream based on keyword.
+
+Examples use Scribe library for OAuth.
+
+Compile and Run
+--------------------------------------------------
+mvn package
